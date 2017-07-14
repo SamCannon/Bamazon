@@ -6,8 +6,8 @@ const inq = require("inquirer");
 const connection = mysql.createConnection({	
 	host: "localhost",
 	port: 3306,
-	user: "Scannon",
-	password: "ARSC0822",
+	user: "user",
+	password: "password",
 	database: "bamazon"
 });
 
